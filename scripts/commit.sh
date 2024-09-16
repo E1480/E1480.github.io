@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git add *
+git add ../*
 echo "Add a oneLine comment:"
 read CommitComment
 git commit -m $CommitComment
